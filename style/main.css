@@ -1,0 +1,291 @@
+/************header section************/
+/*****top right navigation*****/
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #1a1c20;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 200;
+}
+#wrapper{
+    width:1150px;
+    margin: 50px auto;
+    background: #f7f7f7;
+}
+/************index header section************/
+header{
+    background: #ac4338;
+    position: relative;
+    color:#f7f7f7;
+    padding-bottom: 1px;
+}
+header div{
+    padding:11px 25px 11px 45px;
+}
+h1{
+    font-weight: lighter;
+    font-size: 64px;
+    margin-bottom: 90px;
+}
+h1 a:link{
+    color: #f7f7f7;
+    text-decoration: none;
+}
+h1 a:hover{
+    text-decoration: underline;
+}
+h1 a:visited{
+    color: #f7f7f7;
+}
+/*****top right navigation*****/
+nav#navigation{
+    float: right;
+}
+nav#navigation ul{
+    list-style: none;
+}
+nav#navigation ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+nav#navigation ul li a{
+    color: #f7f7f7;
+    text-decoration: none;
+}
+nav#navigation ul li a:hover{
+    text-decoration: underline;
+}
+/*****rss icon*****/
+a#rssIcon{
+    float: right;
+    clear: right;
+    width: 48px;
+    height: 48px;
+    background-image: url(images/icon/rss_gray.png)
+}
+a#rssIcon:hover{
+    background-image: url(images/icon/rss_black.png);
+}
+/*****nav category area*****/
+nav#category{
+    background: #fff;
+    margin-top: 40px;
+    padding-left:25px ;
+}
+nav#category ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav#category ul li{
+    display: inline-block;
+}
+nav#category ul li a{
+    font-size: 20px;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    color:#1a1c20;
+}
+nav#category ul li a:hover{
+    color: #f7f7f7;
+    background-color: #ac4338;
+}
+/************contact icon**************/
+div#contactIcon{
+    float: right;
+    margin:10px 10px 0 0 ;
+}
+div#contactIcon img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+/************single header section************/
+section#articleHeader{
+    padding: 45px 45px 0 31px;
+}
+section#articleHeader p{
+    display: inline-block;
+}
+section#articleHeader p a{
+    padding: 14px;
+    color: #23252b;
+    font-size: 20px;
+    text-decoration: none;
+}
+section#articleHeader p a:hover{
+    padding: 12px;
+    border: 2px solid #1a1c20;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+section#articleHeader img{
+    display: inline-block;
+    float: right;
+}
+/************content section************/
+.indexPage{
+    width: 950px;
+}
+section#content{
+    margin: 45px;
+}
+/************article section************/
+article{
+    margin-top: 50px;
+}
+article h2{
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0;
+}
+article h2 a{
+    color: #434343;
+    text-decoration: none;
+}
+article h2 a:hover{
+    color: #1a1c20;
+    text-decoration: none;
+}
+article div.publishTime{
+    margin: 0;
+    font-size: 13px;
+    color: #23252b;
+}
+article div.articleContent{
+    font-size: 17px;
+    line-height: 25px;
+    color: #23252b;
+    margin: 25px auto 17px auto;
+}
+article div.articleContent a{
+    color: #ac4338;
+    text-decoration: none;
+}
+article div.articleContent a:hover{
+    color: #1a1c20;
+    text-decoration: none;
+}
+article div.articleLink{
+   color: #8d8d8d;
+    font-size: 15px;
+}
+article div.articleLink span{
+    margin-right: 10px;
+}
+article div.articleLink a{
+    color: #8d8d8d;
+    text-decoration: none;
+}
+article div.articleLink a:hover{
+    color: #23252b;
+}
+/************page************/
+div#page{
+    margin-top: 100px;
+}
+div#previousPage{
+    display: inline-block;
+}
+div#nextPage{
+    display: inline-block;
+    float: right;
+}
+div#page a{
+    text-decoration: none;
+    color: #23252b;
+}
+div#page a:hover{
+    text-decoration: underline;
+}
+/************single comment section************/
+section#comments{
+
+}
+div#commentsHead{
+    margin:45px auto 20px auto ;
+}
+div#commentsHead h2{
+    display: inline-block;
+    margin: 0;
+}
+div#commentsHead h2 a{
+    color: #434343;
+    font-weight: 200;
+}
+div#commentsHead h2 a:link{
+    text-decoration: none;
+}
+
+div#commentsHead div{
+    display: inline-block;
+    float: right;
+}
+div#commentsHead img{
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+}
+.commentList{
+    padding: 0;
+    margin: 0;
+}
+.commentList .gravatar{
+    display: inline-block;
+}
+.commentList li{
+    list-style: none;
+}
+.commentList .comment-author{
+    display: inline-block;
+    margin-left: 5px;
+}
+.commentList .comment-author span{
+    font-weight: bold;
+}
+.commentList .comment-author time{
+    color: #747474;
+    font-size: 10px;
+}
+.commentList .reply{
+    display: inline-block;
+    padding: 10px 0 0 5px;
+}
+.commentList .reply img{
+    width: 20px;
+    height: 20px;
+}
+.commentList .comment-content p{
+    margin-left: 40px;
+    font-size: 15px;
+}
+.commentList ul.children {
+    border-left:#747474 3px solid;
+}
+
+#commentform div{
+    float:right;
+    display: inline;
+}
+/************footer************/
+div#bump{
+    background-color: #e8e9e8;
+    height: 100px;
+}
+footer{
+    text-align: center;
+    padding: 7px;
+    color: #767676;
+    font-size: 14px;
+}
+footer a{
+    color: #767676;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #434343;
+    text-decoration: underline;
+}
